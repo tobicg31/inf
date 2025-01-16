@@ -109,42 +109,61 @@ section h2{
     padding-bottom: 40px;
 } */
 
-
+#plan{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
 #plan .cuadro{
-    width: fit-content;
     margin: auto;
     background-color: rgba(0, 0, 0, .5);
 }
 
-#plan .fila{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+#plan .media-fila{
+    width: 50%;
     display: flex;
-    max-width: fit-content;
-    justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-#plan .fila .col{
+#plan .fila{
+    display: flex;
+    flex-wrap: wrap-reverse; 
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+#plan .fila .media-fila .col{
     display: flex;
     justify-content: center;
-    width: 40%;
+    align-items: center;
+    width: 70%;
     padding-left: 30px;
     padding-right: 30px;
+    height: fit-content;
 }
 
-#plan .fila .col-num{
+#plan .fila .media-fila .col-num{
     display: flex;
-    width: 10%;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+    width: 30%;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 20%;
 }
 
-#plan > .cuadro > .fila > .col >  ul{
+#plan  ul{
     list-style: none;
+}
+
+#plan h1{
+    max-width: 100%;
 }
 
 #archivos h2{
