@@ -42,6 +42,8 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    font-size: 15px;
+    width: 100%;
 }
 
 .menu-horizontal > li > a{
@@ -81,11 +83,11 @@ section{
     background-color: #e3e4d133;
     padding: 50px 15px;
     color: white;
-    margin: 10px;
+    margin-top: 10px;
 }
 
 section h1{
-    font-size: 45px;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -94,25 +96,10 @@ section h2{
     padding-bottom: 15px;
 }
 
-/*
-
-#plan{
-    background-color: #e3e4d133;
-    padding: 50px 15px;
-    color: white;
-    margin-top: 60px;
-} */
-
-/*
-#plan h1{
-    text-align: center;
-    padding-bottom: 40px;
-} */
-
 #plan{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 }
 
 #plan .cuadro{
@@ -178,9 +165,51 @@ section h2{
     display: flex;
     justify-content: space-between;
     align-items: start;
-
+    width: 100%;
 }
 
 .texto {
-    width: auto;
+    width: 50%;
+}
+/*
+.texto h1, .texto p, #plan h1{
+    font-size: 2em;
+}*/
+
+footer{
+    display: flex;
+    margin-top: 2em;
+    background-color: black;
+    color: white;
+    height: 5em;
+    width: fit-content;
+    justify-content: start;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+
+footer p{
+    padding: 1em;
+}
+
+button{
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #1a76c7;
+    color: white;
+    font-size: 2em;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.donacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donacion p{
+    background-color: rebeccapurple;
 }
