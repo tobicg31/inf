@@ -196,7 +196,7 @@ footer p{
 button{
     margin-top: 2em;
     padding: 1em;
-    /*background-color: #1a76c7;*/
+    background-color: #1a76c7;
     color: white;
     font-size: 2em;
     width: fit-content;
@@ -209,7 +209,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-
+/*
 .donacion p{
     background-color: rebeccapurple;
-}
+}*/
