@@ -84,6 +84,7 @@ section{
     padding: 50px 15px;
     color: white;
     margin-top: 10px;
+    font-size:2em;
 }
 
 section h1{
@@ -198,7 +199,7 @@ button{
     padding: 1em;
     background-color: #1a76c7;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     width: fit-content;
     border-radius: 15px;
 }
